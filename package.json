@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "unidade": "npx playwright test"  
   },
   "keywords": [],
   "author": "",
