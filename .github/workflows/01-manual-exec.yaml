@@ -40,9 +40,3 @@ jobs:
       # executar os testes unidade
       - name: Executando Teste Unidade
         run: yarn run test
-
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() }}
-        with:
-          name: relatorio
-          path: ./playwright-report 
